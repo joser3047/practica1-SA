@@ -12,6 +12,5 @@ const todoSchema = new mongoose.Schema({
 });
 
 const todoModel = mongoose.model('todo', todoSchema);
-//sfafds
 
 module.exports = todoModel;
