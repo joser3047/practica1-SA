@@ -1,0 +1,29 @@
+{
+  "name": "node-jest",
+  "version": "1.0.0",
+  "description": "Udemy node express with jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fdepazv/node-jest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdepazv/node-jest/issues"
+  },
+  "homepage": "https://github.com/fdepazv/node-jest#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "node-mocks-http": "^1.9.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.0",
+    "supertest": "^5.0.0"
+  }
+}
