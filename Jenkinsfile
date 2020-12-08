@@ -14,7 +14,7 @@ pipeline {
 			}
             stage('despliegue'){
                 steps {
-                    bat "cd C:/Users/Jose/Desktop/Despliegue/practica1-SA"
+                    bat "cd C:\Users\Jose\Desktop\Despliegue\practica1-SA"
                     bat "git pull"
                     bat "npm install"
                     bat "pm2 restart all"
