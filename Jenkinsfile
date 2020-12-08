@@ -4,7 +4,7 @@ pipeline {
 		stages {
 			stage('test'){
 				steps {
-					"npm test"
+					bat "npm test"
 				}
 			}
 		}
