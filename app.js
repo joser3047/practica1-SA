@@ -13,7 +13,7 @@ app.use((error, req, res, next) => {
 });
 
 app.get('/', (req, res) =>{
-    res.json('Hello world1');
+    res.json('Hello world2.0');
 });
 
 module.exports = app;
