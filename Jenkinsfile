@@ -12,9 +12,10 @@ pipeline {
 					bat "npm test"
 				}
 			}
-            stage('hola'){
+            stage('despliegue'){
                 steps {
-                    echo "hola nundo"
+                    bat "cd ../Despliegue/practica1-SA"
+                    bat "npm start"
                 }
             }
 		}
