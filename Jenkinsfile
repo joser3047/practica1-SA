@@ -14,8 +14,7 @@ pipeline {
 			}
             stage('despliegue'){
                 steps {
-                    bat "cd C:\\Users\\Jose\\Desktop\\Despliegue\\practica1-SA && git pull && npm install"
-                    bat "pm2 restart all"
+                    bat "cd C:\\Users\\Jose\\Desktop\\Despliegue\\practica1-SA && git pull && npm install && pm2 restart all"
                 }
             }
 		}
