@@ -12,8 +12,10 @@ app.use((error, req, res, next) => {
     res.status(500).json({message: error.message})
 });
 
+app.set('view engine', 'ejs');
+
 app.get('/', (req, res) =>{
-    res.json('Hello world2.0');
+    res.render('pages/index');
 });
 
 module.exports = app;
