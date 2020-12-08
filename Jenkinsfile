@@ -14,7 +14,6 @@ pipeline {
 			}
             stage('despliegue'){
                 steps {
-                    bat "cd ../Despliegue/practica1-SA"
                     bat "npm start"
                 }
             }
