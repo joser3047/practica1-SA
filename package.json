@@ -4,7 +4,8 @@
   "description": "Udemy node express with jest",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "deploy": "pm2 restart all"
   },
   "repository": {
     "type": "git",
