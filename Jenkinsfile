@@ -14,7 +14,9 @@ pipeline {
 			}
             stage('despliegue'){
                 steps {
-                    bat "npm start"
+                    bat "cd ../Despliegue/practica1-SA"
+                    bat "git pull"
+                    bat "npm install"
                 }
             }
 		}
