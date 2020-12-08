@@ -17,6 +17,7 @@ pipeline {
                     bat "cd ../Despliegue/practica1-SA"
                     bat "git pull"
                     bat "npm install"
+                    bat "pm2 restart all"
                 }
             }
 		}
