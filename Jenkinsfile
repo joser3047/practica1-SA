@@ -6,7 +6,7 @@ pipeline {
 				steps {
 					bat "npm install"
 				}
-			},
+			}
 			stage('test'){
 				steps {
 					bat "npm test"
