@@ -12,5 +12,10 @@ pipeline {
 					bat "npm test"
 				}
 			}
+            stage('hola'){
+                steps {
+                    echo "hola nundo"
+                }
+            }
 		}
 }
